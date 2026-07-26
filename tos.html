@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rules & TOS — LuxeVisuals</title>
+<meta name="description" content="Commission terms, deposit structure, and revision policy for LuxeVisuals UI design work.">
+<link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="overlay-scrim"></div>
+
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <img class="brand-mark" src="assets/images/logo.svg" alt="LuxeVisuals monogram">
+    <span class="brand-name">LuxeVisuals<span>UI Designer</span></span>
+  </a>
+  <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</header>
+
+<div class="shell">
+  <aside class="sidebar">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="assets/images/logo.svg" alt="LuxeVisuals monogram">
+      <span class="brand-name">LuxeVisuals<span>UI Designer</span></span>
+    </a>
+    <nav class="nav-links">
+      <a class="nav-link" href="index.html"><span class="num">01</span>Home</a>
+      <a class="nav-link" href="tos.html"><span class="num">02</span>Rules &amp; TOS</a>
+      <a class="nav-link" href="pricing.html"><span class="num">03</span>Pricing</a>
+      <a class="nav-link" href="portfolio.html"><span class="num">04</span>Portfolio</a>
+      <a class="nav-link" href="contact.html"><span class="num">05</span>Contact</a>
+    </nav>
+    <div class="sidebar-foot">
+      <div>Currently accepting commissions</div>
+      <a href="contact.html">→ start a project</a>
+    </div>
+  </aside>
+
+  <main class="content">
+    <div class="container">
+
+      <section class="page-hero reveal in-view">
+        <span class="eyebrow">Commission Terms</span>
+        <h1>Rules &amp; <span class="gold-text">TOS</span></h1>
+        <p class="lede">Clear terms make good working relationships. Please read this before commissioning — placing a deposit means you've agreed to everything below.</p>
+        <div class="seam" style="max-width:280px;"></div>
+      </section>
+
+      <section>
+        <div class="section-head reveal">
+          <span class="eyebrow">Deposits</span>
+          <h2>Payment structure by commission size.</h2>
+        </div>
+        <div class="tos-grid">
+          <div class="tos-card cut-card reveal">
+            <h3>Small Commission <span class="badge">Under $100</span></h3>
+            <div class="split-bar"><div class="a" style="width:50%;"></div><div class="b" style="width:50%;"></div></div>
+            <div class="split-label"><span><b>50%</b> upfront</span><span><b>50%</b> on completion</span></div>
+            <p style="color:var(--champagne-dim); font-size:14px; margin-top:16px;">Anything priced below $100 falls under this tier — half the total is due before work begins, the rest once you approve the finished design.</p>
+          </div>
+          <div class="tos-card cut-card reveal">
+            <h3>Big Commission <span class="badge">$100+</span></h3>
+            <div class="split-bar"><div class="a" style="width:30%;"></div><div class="b" style="width:70%;"></div></div>
+            <div class="split-label"><span><b>30%</b> upfront</span><span><b>70%</b> on completion</span></div>
+            <p style="color:var(--champagne-dim); font-size:14px; margin-top:16px;">Anything priced $100 or above qualifies as a big commission — a smaller deposit secures the slot, with the majority due on delivery.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head reveal">
+          <span class="eyebrow">Working Terms</span>
+          <h2>How commissions are handled.</h2>
+        </div>
+        <ul class="rule-list reveal">
+          <li><strong>Design lock-in:</strong> once your UI is designed in Figma and you're satisfied with it, that design is considered final. When it's imported into engine, no further changes will be made to it under the original scope.</li>
+          <li><strong>Revisions cost extra:</strong> any changes requested after approval or after import — including a change of mind — are treated as a revision and billed separately.</li>
+          <li><strong>Icons:</strong> icon assets used within designs are AI-generated. This keeps turnaround fast and cost efficient; custom hand-made icon sets can be discussed separately if required.</li>
+          <li><strong>Scripting scope:</strong> scripting is offered strictly for visual animations tied to a UI. I do not write or take on backend systems, data, or game logic of any kind.</li>
+          <li><strong>Communication:</strong> please keep scope changes, references, and feedback in one place (Discord) so nothing gets lost between messages.</li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="min-note reveal">
+          Minimum commission value: <strong style="color:var(--gold-bright);">$30.</strong> No commission is taken on below this amount — it isn't worth the time investment on either side.
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <span>© <span id="year"></span> LuxeVisuals — All designs remain the intellectual property of LuxeVisuals until final payment is received.</span>
+        <span><a href="https://x.com/LuxeVisualsDev" target="_blank" rel="noopener">X</a> · <a href="https://discord.com/users/1057018141433139281" target="_blank" rel="noopener">Discord</a> · <a href="https://www.roblox.com/users/10751815834/profile" target="_blank" rel="noopener">Roblox</a></span>
+      </footer>
+
+    </div>
+  </main>
+</div>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body>
+</html>
